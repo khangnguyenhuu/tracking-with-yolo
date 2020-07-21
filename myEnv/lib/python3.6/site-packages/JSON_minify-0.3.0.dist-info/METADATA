@@ -1,0 +1,61 @@
+Metadata-Version: 2.0
+Name: JSON-minify
+Version: 0.3.0
+Summary: A simple script to minify valid JSON, containing C/C++ style comments
+Home-page: https://github.com/getify/JSON.minify/tree/python
+Author: Pradyun S. Gedam
+Author-email: pradyunsg@gmail.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Utilities
+
+JSON-minify
+============
+
+A port of the `JSON-minify` utility to the Python language.
+
+Overview
+--------
+
+`JSON-minify` minifies blocks of JSON-like content into valid JSON by removing
+all whitespace *and* JS-style comments (single-line `//` and multi-line
+ `/* .. */`).
+
+With `JSON-minify`, you can maintain developer-friendly JSON documents, but
+minify them before parsing or transmitting them over-the-wire.
+
+Installation
+------------
+
+You can install using pip as follows::
+
+     pip install JSON-minify
+
+If you wish to use the development version fo JSON-minify, you can install it
+as follows::
+
+     pip install git+https://github.com/getify/JSON.minify@python
+
+
+Testing
+-------
+
+To run the tests, just execute json_minify.py.
+
+::
+
+    python json_minify.py
+
+License
+-------
+
+The code and all the documentation are released under the MIT license.
+
+http://getify.mit-license.org/
+
+

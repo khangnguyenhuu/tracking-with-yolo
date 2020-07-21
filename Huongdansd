@@ -1,0 +1,8 @@
+1. Dung moi truong ao myEnv
+2. Tai 2 file config va model
+config: 
+model: https://drive.google.com/file/d/1-7_X2Di_iprpDALY0dGBwla_1FibmAX2/view?fbclid=IwAR3yH74m9o1kUuBCtMzI6r3kbc5TkhPjS-Ojrbbhc7W9-BM0ave5hllW1E4
+config: https://drive.google.com/file/d/1FSAnaByEBH6WgyA0hpdKJ9opNxlfAaJd/view?fbclid=IwAR33CPEQR8y3FMouQnmo9XmkPei2XBklMXh71m2eyNFVyGmSCaeASa8kLS0
+tai 2 file nay ve roi bo vao trong thu muc nay
+2. Chay file yolo_detect = cau lenh: python yolo_detect.py
+3. Chay file car_counting = cau lenh: python car_counting -v test_video.mp4
